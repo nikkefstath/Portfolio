@@ -1,0 +1,145 @@
+
+html, body { height: 100%; }
+body {
+  overflow-x:hidden;
+
+}
+
+body{
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #595954;
+  line-height: 28px;
+}
+
+.wrapper{
+  margin: 70px;
+  overflow-x:hidden
+}
+
+.container {
+  display: inline-block;
+  float: right;
+}
+
+.circle {
+   left: 20%;
+   bottom: 10%;
+   position: absolute;
+ }
+
+.triangle {
+   position: absolute;
+}
+
+.square {
+   position: absolute;
+   right: 10%;
+   bottom: 20%;
+}
+
+.diamond {
+   position: absolute;
+   left: 50%;
+}
+
+.navigation {
+  float: right;
+  padding-right: 50px;
+}
+
+.nav-wrapper ul li {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.hero {
+  display: inline-block;
+}
+
+.hero {
+  width: 1300px;
+  height: 702.29px;
+}
+
+.squiggle {
+  display: block;
+  padding-top: 22px;
+
+}
+h1 {
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+h2, .name {
+  padding-top: 43px;
+  font-size: 32px;
+  font-weight: 500px;
+  text-align:left;
+}
+
+.herotext {
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 80px;
+  margin-right: 290px;
+  margin-bottom: 134px;
+}
+
+.abouttext {
+  position: absolute;
+  width: 900px;
+  padding-top: 29px;
+  line-height: 194%;
+}
+
+.featuredworktext, .downarrow {
+  text-align: center;
+  font-weight: bold;
+}
+
+.downarrow {
+  position: absolute;
+  bottom: 0%;
+  width: 1300px;
+}
+/** Project 1 **/
+
+.flowspaceproject {
+  background-color: #FFECFF;
+  width: 1320px;
+  height: 800px;
+  display: inline-block;
+}
+
+.flowspacemockup img {
+  width: 725px;
+}
+
+h3 {
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.projecttext {
+  width: 315px;
+  position: absolute;
+}
+
+/** PROCESS **/
+
+#process .skill {
+    text-align: center;
+    width: 203px;
+    display: inline-block;
+}
+
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
