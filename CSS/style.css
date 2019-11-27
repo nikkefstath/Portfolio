@@ -13,8 +13,34 @@ body{
 }
 
 .wrapper{
-  margin: 70px;
-  overflow-x:hidden
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 40px;
+  overflow-x:hidden;
+}
+
+
+.homehighlight {
+  z-index: -1;
+  position: absolute;
+  left: 904px;
+  top: 72px;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #595954;
+}
+
+.nav-wrapper ul li {
+  font-size: 18px;
+  letter-spacing: 10%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-decoration: none;
 }
 
 .container {
@@ -30,6 +56,7 @@ body{
 
 .triangle {
    position: absolute;
+   top: 30%;
 }
 
 .square {
@@ -55,18 +82,16 @@ body{
 
 .hero {
   display: inline-block;
-}
-
-.hero {
   width: 1300px;
   height: 702.29px;
 }
 
+
 .squiggle {
   display: block;
   padding-top: 22px;
-
 }
+
 h1 {
   font-family: Raleway;
   font-size: 100px;
@@ -84,10 +109,18 @@ h2 {
   text-align: center;
 }
 
+h2 .nikkihighlight {
+  z-index: -1;
+  position: absolute;
+  left: 168px;
+  top: 130px;
+
+}
+
 .herotext {
   position: absolute;
   margin-left: 120px;
-  margin-top: 80px;
+  margin-top: 180px;
   margin-right: 290px;
   margin-bottom: 134px;
 }
@@ -97,6 +130,17 @@ h2 {
   width: 900px;
   padding-top: 29px;
   line-height: 194%;
+}
+
+.friendly {
+  font-weight: bold;
+}
+
+.friendlyhighlight {
+  z-index: -1;
+  position: absolute;
+  left: 491px;
+  top: 45px;
 }
 
 .featuredworktext, .downarrow {
@@ -134,35 +178,63 @@ h2 {
   position: absolute;
   height: 194.06px;
   left: 947.83px;
-  top: 1050.02px;
-
+  top: 1000.02px;
+  line-height: 194%;
 }
 
 
 h3 {
+    padding-bottom: 10px;
     font-family: raleway;
     font-weight: bold;
     font-size: 32px;
 }
 
+ a, .button {
+  color: #595954;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+.button {
+  z-index: 2;
+}
+
+.buttonarrow {
+  display: inline;
+  position: relative;
+  padding: 17px;
+}
+
+.buttonhighlight {
+  z-index: 0;
+  position: absolute;
+  right: 54%;
+  top: 93%;
+
+}
 
 /** PROCESS **/
 
 #process {
-  width: 1320px;
-  height: 700px;
+  width: 100%;
+  height: 600px;
 }
 
 #process .skill {
+    padding-top: 120px;
     text-align: center;
+}
 
+.processcontainer {
+  display: flex;
 }
 
 .skill {
   position: relative;
   width: 203px;
   height: 246.76px;
-  display: inline-block;
+  flex: 1;
 }
 
 img .skill {
@@ -177,6 +249,20 @@ img .skill {
 
 .image {
   align-content: center;
+}
+
+ul  {
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.dots {
+  display: inline-block;
+  padding-top: 50px;
+}
+
+.processarrow {
+  padding-left: 360px;
 }
 
 /** TESTIMONIALS **/
@@ -203,9 +289,29 @@ img .skill {
 
 /** Footer **/
 footer {
-  height: 350px;
+  height: 250px;
+  display: inline-block;
 }
 
 .footertext {
   font-size: 48px;
+}
+
+.contactbuttons, ul {
+  margin: auto;
+}
+
+.footertext {
+  display: inline-block;
+}
+
+
+.contactbutton {
+  display: inline-block;
+}
+
+footer li {
+    display: inline-block;
+    width: 100px;
+    margin: auto;
 }
