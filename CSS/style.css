@@ -12,6 +12,12 @@ body{
   line-height: 28px;
 }
 
+h2 {
+  font-family: raleway;
+  font-size: 32px;
+  font-weight: bold;
+}
+
 .wrapper{
   margin-left: 70px;
   margin-right: 70px;
@@ -98,16 +104,18 @@ h1 {
   font-weight: bolder;
 }
 
-h2, .name {
+.name, h2 {
   padding-top: 43px;
   font-size: 32px;
-  font-weight: 500px;
+  font-weight: 500;
+  font-family: roboto;
   text-align:left;
 }
 
 h2 {
   text-align: center;
 }
+
 
 h2 .nikkihighlight {
   z-index: -1;
@@ -152,6 +160,7 @@ h2 .nikkihighlight {
   position: absolute;
   bottom: 0%;
   width: 1300px;
+
 }
 /** Project 1 **/
 
@@ -190,25 +199,26 @@ h3 {
     font-size: 32px;
 }
 
- a, .button {
+ .button a {
   color: #595954;
   padding-top: 20px;
   text-decoration: none;
+  z-index: 1;
+  position: relative;
+  font-weight: bold;
 }
 
 
 .buttonarrow {
   display: inline;
-  position: relative;
   padding: 17px;
 }
 
 .buttonhighlight {
-  z-index: -1;
+  z-index: 0;
   position: absolute;
   right: 54%;
-  top: 93%;
-
+  bottom: 10%;
 }
 
 /** PROCESS **/
@@ -265,50 +275,59 @@ ul  {
 /** TESTIMONIALS **/
 
 .testimonials {
+  display: block;
+  text-align: center;
   background-color: rgba(12, 202, 242, 0.15);
-  width: 1320px;
+  width: 100%;
   height: 500px;
-  display: inline-block;
 }
 
-.testimonials img {
-   display: block;
-}
 
 .phototestimonial {
-  display: inline-block;
+  text-align: center;
+  position: absolute;
+  display: block;
 }
 
- .testimonials p {
+img .testimonials {
+  display: block;
+}
+
+.testimonialname {
+  text-align: center;
+}
+
+ .review {
   width: 558px;
-  display: inline-block;
+  display: block;
 }
 
 /** Footer **/
 footer {
   height: 250px;
+  width: 100%;
   display: inline-block;
 }
 
 .footertext {
+  display: inline-block;
   font-size: 48px;
 }
 
-.contactbuttons, ul {
-  margin: auto;
-}
-
-.footertext {
-  display: inline-block;
-}
-
-
 .contactbutton {
+  font-weight: 500px;
+  vertical-align: super;
+  margin: auto;
   display: inline-block;
 }
+
 
 footer li {
     display: inline-block;
-    width: 100px;
-    margin: auto;
+}
+
+
+.footericons {
+  width: 400px;
+  margin: auto;
 }
