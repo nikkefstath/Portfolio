@@ -58,7 +58,7 @@ padding-bottom: 60px;
 }
 
 .hero {
-  background-image: url(../images/wave.svg);
+  background-image: url(images/wave.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
@@ -88,7 +88,7 @@ nav ul li a {
   text-decoration: none;
 }
 
-.container {
+.top-bar {
   display: inline-block;
   float: right;
 }
@@ -537,7 +537,6 @@ img.flowspacemockup {
         background-position: 10px 50%;
       }
     }
-}
 
 /*Select every element*/
 [id^="item"] {
@@ -547,13 +546,13 @@ img.flowspacemockup {
 .item-1 {
     z-index: 2;
     opacity: 1;
-  background:url('../images/wireframesketches.svg');
+  background:url('images/wireframesketches.svg');
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center;
   }
 .item-2{
-  background:url('../images/wireframedigitals.svg');
+  background:url('images/wireframedigitals.svg');
    background-size: contain;
    background-repeat: no-repeat;
    background-position: center;
@@ -572,7 +571,6 @@ img.flowspacemockup {
     z-index: 3;
     opacity: 1;
   }
-}
 
 /**usability testing 1**/
 
