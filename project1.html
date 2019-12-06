@@ -2,51 +2,50 @@
 <html lang="en">
   <head>
     <title>Flowspace Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/project1.css">
   </head>
   <body>
     <!-- hero unit -->
-    <div class="container">
-      <section class="hero">
-        <header class="header">
-          <a href="index.html" class="logo">
-            <img src="images/logosignature.svg" alt="logo">
-          </a>
-          <div class="top-bar">
-            <div class="navigation">
-              <nav>
-                <div class="nav-wrapper">
-                  <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="resume.pdf">resume</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
+    <div class="wrapper">
+      <div class="navigation">
+        <nav>
+          <div class="nav-wrapper">
+              <ul>
+                <li><a href="about.html">about</a></li>
+                <li><a href="resume.pdf">resume</a></li>
+                <li><a href="contact.html">contact</a></li>
+              </ul>
           </div>
-          </header>
-          <div class="projecthero">
-            <img class="flowspacemockup" src="images/flowspacemockup.svg" alt="flowspace mockup">
-        </div>
-    </section>
-
-  <div class="wrapper">
-<section class="projectintro">
-  <div class="project-containter">
-    <div class="summarytext">
-    <h3>summary</h3>
-    <p> With a plethora of cloud storage platforms being all viable options for users, Flowspace means to enter the space to create a more transparent cloud storage platform where users have full control over the security of their files while maintaining the simplicity they crave. I researched, branded, designed and prototyped Flowspace for my Bloc Designer Track project.</p>
-    <div class="button">
-    <a href="https://www.figma.com/proto/nSRczBjdL1rIGC3aIa2fnl/Flowspace-Mockups?node-id=26%3A2&viewport=470%2C-104%2C0.018384581431746483&scaling=scale-down-width"><span class="buttonhighlight">View Prototype</span>
-
+      </nav>
+   </div>
+<section class="projecthero">
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/logosignature.svg" alt="logo">
     </a>
-    </div>
-</div>
-  </div>
+  </header>
+      <h2 class="tagline">A more transparent cloud storage solution</h2>
+        <div id="heroimage">
+            <img src="images/flowspacemockup.svg" alt="flowspace mockup">
+        </div>
+      </div>
   </section>
+
+  <section class="summary">
+    <div class="introduction">
+      <div class="intro">
+        <h3>Summary</h3>
+          <p>With a plethora of cloud storage platforms being all viable options for users, Flowspace means to enter the space to create a more transparent cloud storage platform where users have full control over the security of their files while maintaining the simplicity they crave. I researched, branded, designed and prototyped Flowspace for my Bloc Designer Track project.</p>
+          <div class="button">
+                <a href="https://www.figma.com/proto/nSRczBjdL1rIGC3aIa2fnl/Flowspace-Mockups?node-id=26%3A2&viewport=470%2C-104%2C0.018384581431746483&scaling=scale-down-width"><h3><span class="buttonhighlight">View Prototype</span></h3>
+                    </a>
+          </div>
+      </div>
+    </div>
+  </section>
+
   <!--Roles/deliverables-->
 
 <section class="myroles">
@@ -92,20 +91,17 @@
     </section>
     <!--Problem/Solution-->
 <section class="problem">
-  <div class="problem-container">
-    <div class="solutiontext">
+  <div class="subsection">
     <h3>Problem</h3>
       <p>Most cloud storage platforms are not as focused on privacy and security as they should be. The majority are more focused on being a place that you can house your files, sharing those files and collaborating on documents. Some have options for security, but these can only be unlocked with further payments which include features the user may not even need, but are forced to pay for in order to feel secure.</p>
     </div>
-  </div>
 </section>
+
 <section class="solution">
-      <div class="solution-container">
-        <div class="solutiontext">
+      <div class="subsection">
         <h3>Solution</h3>
           <p>With an emphasis on transparency and control for users, Flowspace allows users to not only do the basics of what is needed in a cloud storage app, such as uploading and saving files, sharing, collaborating, and creating documents, but also offers full control and transparency over the files they have shared on an indiviudal level. All of these features are included in the free version, so users will only need to purchase a plan in order to have more storage space, but with a generous 10GB of free storage offered from the beginning, users will be enticed to join.</p>
         </div>
-      </div>
       </section>
         <!--Discovery/research-->
         <section class="section">
@@ -120,9 +116,11 @@
 
   <!--competitive analysis-->
 <section class="competitive-analysis">
-  <div class="subtitle">
+  <div class="block competitive-analysis">
+    <div class="intro">
   <h3>competitive analysis</h3>
         <p> I chose 3 popular cloud storage apps to perform a competitive analysis: Google Drive, DropBox, and Box to see where a new cloud storage application could enter the market and thrive.</p>
+    </div>
 </div>
 <div class="competitive-container">
   <div class="complist" id="dropbox">
@@ -158,11 +156,13 @@
         </div>
     </section>
       <!--user research-->
-<h3 class=user-research-title>user research</h3>
-<div class="intro">
-<p class=user-research-intro> After scoping out the competition, I conducted a user survey to find out the common habits and pain points of cloud storage users.</p>
-</div>
 <section id="user-research">
+  <div class="block user-research">
+    <div class="intro">
+    <h3>user research</h3>
+  <p> After scoping out the competition, I conducted a user survey to find out the common habits and pain points of cloud storage users.</p>
+</div>
+  </div>
   <div class="user-research-container-1">
         <div class="result">
           <h2 class=percentage>80%</h2>
@@ -194,7 +194,11 @@
             </section>
 
   <section id="personas">
-    <h3 class="user-personas-title">user personas</h3>
+    <div class="block personas">
+      <div class="intro">
+    <h3>user personas</h3>
+  </div>
+</div>
     <div class="personascontainer">
       <div id="Ronald">
         <h4>Ronald C.</h4>
@@ -238,28 +242,30 @@
 
 
 <section class="userstories">
-    <div class="userstory-explain">
-  <h3 class="user-stories-title">user stories</h3>
-    <p> Based on the survey and the personas I made focusing heavily on collaboration, simplicity, free storage and security, I put myself in a potential users mindset and created user stories based on what they wanted to achieve.<br><br> I chose to prioritize the basics of a cloud storage application that users said they used the most in the survey and then add in further collaboration and security measures in order to entice both users who use cloud storage already and those who do not yet, but would if security was taken into better consideration.</p>
+    <div class="block userstories">
+      <div class="intro">
+  <h3>user stories</h3>
+    <p> Based on the survey and the personas I made focusing heavily on collaboration, simplicity, free storage and security, I put myself in a potential users mindset and created user stories based on what they wanted to achieve.<br><br> I chose to prioritize the basics of a cloud storage application that users said they used the most in the survey and then add in further collaboration and security measures in order to entice both users who use cloud storage already and those who do not yet, but would if security was taken into better consideration.
+    <br><br>
+  I created user flows based user stories I created in order to provide the best experience for my users.</p>
   </div>
+</div>
   </section>
 
   <div class="button">
-    <a href="https://whimsical.com/YK2dbDoAyvMwLvEDd1xdZZ"><span class="buttonhighlight">View Stories</span>
-      <img src="images/sidearrow.svg" alt="buttonarrow">
+    <a href="https://whimsical.com/YK2dbDoAyvMwLvEDd1xdZZ"><h3><span class="buttonhighlight">View Stories</span></h3>
     </a>
   </div>
 
   <section class="userflows">
-        <div class="userflow-explain">
-    <h3 class="user-flows-title">user flows</h3>
-
+        <div class="subsection">
+    <h3>user flows</h3>
       <p> I created user flows based user stories I created in order to provide the best experience for my users.</p>
     </div>
     <div class="userflowimage">
       <img src="images/userflows.png" alt="User Flow">
     </div>
-      <div class="userflow-breakdown">
+      <div class="subsection">
         <ul>
           <li>Security: The ability to view the files you have shared and edit those share permissions at an individual user level.</li>
           <li>Collaboration: The ability to comment on files and tag people for visibility</li>
@@ -278,8 +284,7 @@
 
 
   <section class="wireframes">
-    <div class="wireframe-explain">
-    <div class="sketchesandwireframes">
+    <div class="subsection">
       <h3><span class="pinkunderline">sketches & wireframes</span></h3>
         <p class="intro">When creating the wireframes for this project,  I wanted to create something to make sure that it was familiar enough that it would be easily acclimated to based on users use of other cloud storage apps used by most of my users (Google Drive, Dropbox).</p>
     </div>
@@ -299,14 +304,12 @@
       </div>
   </section>
 
-<section class="usability-test1">
-    <div class="test-explain">
-      <div class="test-container">
+<section class="usability-test">
+      <div class="subsection">
         <h3><span class="pinkunderline">usability test #1</span></h3>
           <p class=intro>After completing three rounds of testing for the tasks at hand, I was able to identify where the users where having the most confusion.</p>
     </div>
-  </div>
-  <div class="usability-list">
+  <div class="subsection">
       <p>I did 3 seperate usability tests to test my users completing 3 tasks:</p>
         <ol>
           <li>Sign up for a new account</li>
@@ -314,7 +317,7 @@
           <li>Organize a file</li>
         </ol>
       </div>
-    <div class="usability-analysis">
+    <div class="subsection">
       <p>There was consistent confusion when it came to the hover buttons for share, download, and move file. Users were unable to find them and wanted to go to the vertical dots that many people know as an indicator for ‘options’. In my next iteration, I chose to place those options under the vertical dots and remove the hover buttons all together.</p>
         <img src="images/wireframeupdate.svg" alt="Wireframe update">
    </div>
@@ -328,22 +331,25 @@
     </div>
     </div>
   </section>
+
     <section class="branding">
-      <div class="branding-container">
+      <div class="subsection">
         <h3><span class="pinkunderline">branding</span></h3>
-        <h3 class="subtitle">The Flowspace Story</h3>
+        <h4>The Flowspace Story</h4>
           <p>Entering flow is when  the mental state of operation in which a person performing an activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity.</p>
           <p>The idea is to melt this concept into a cloud storage service where all of your important files are in one place and are easily organizable to make sure you have everything you need to collaborate, share, and create in either a personal or professional manner.</p>
-        <h3 class="subtitle">Logo Sketches & Concepts</h3>
+        <h4>Logo Sketches & Concepts</h4>
             <img src="images/logosketches.svg" alt="logo sketches">
           <p>I drew up some images that made me think of the word ‘flow’, and eventually came up with this sort of melting down an icon concept.</p>
           <p>Once this was drawn out and the feeling that I wanted Flowspace to evoke was chosen, I got to work choosing a color palette that I thought would help express those emotions further.</p>
           <p>I had originally wanted to use a very minimalistic look when it came to the logo, starting with this black and white version, but seeing it in digital form, I decided it needed a bit more.</p>
             <img src="images/digitalsketches.svg" alt="digital logo sketches">
-      <div class="color logos">
+      <div class="color-logos">
             <img src="images/digitallogosketchescolor.svg" alt="digital color logos">
           </div>
-        <h3 class="subtitle">Style Guide</h3>
+
+      <div class="subsection">
+        <h3>Style Guide</h3>
           <p>I chose to use the darker blue as a brand color because it symbolizes intelligence and trust while the lighter coral and aqua give an inviting, friendly vibe. The coral color is a pop of color that is fun and energetic, like entering a “flow state” can be. I believe the fonts are soft and playful which add to this effect. I chose to use the same fonts together instead of the previous ‘basic’ font as the brand font because once I tried it out, they seemed to mesh well together and look different enough when changing weight and size, although they are technically the same.</p>
             <img src="images/styleguide.svg" alt="Style Guide">
       </div>
@@ -355,9 +361,9 @@
   </section>
 <section class="hifi">
   <div class="hifi-container">
-    <h3 class="subtitle">Flowspace Homepage</h3>
+    <h4>Flowspace Homepage</h4>
       <img src="images/flowspacemockupshome.svg" alt="Homepage Mockups">
-        <h3 class="subtitle">Flowspace Dashboard</h3>
+        <h4>Flowspace Dashboard</h4>
           <img src="images/hifimockups.svg" alt="Dashboard Mockups">
     </div>
   <div class="button">
@@ -367,17 +373,11 @@
   </div>
 </section>
   <!--User testing-->
-<section class="section">
-      <div class="sectiontitle">
-  <div class="centered">
-    <h1 class="casestudyheader">User Testing</h1>
-      <img class=casestudyimage src="images/testing.svg" alt="User Testing">
-    </div>
-  </div>
-</section>
 
-<section class="usability-test2">
-  <div class="container-usability-test2">
+
+
+<section class="usability-test">
+  <div class="subsection">
     <h3><span class="pinkunderline">usability test #2</span></h3>
       <p>I did 3 separate usability tests to test my users completing 5 tasks:</p>
         <ol>
@@ -388,7 +388,7 @@
           <li> Change a user’s permissions on a file that you have shared previously to ‘edit only’, then delete them</li>
         </ol>
   </div>
-    <div class="container-usability-test2-analysis">
+    <div class="subsection">
       <p>Analyzing the feedback from my users, I had a few consistencies reported that I decided to implement and tweak in the final product. One of the most important, was creating a tour to give users a warm welcome into Flowspace.</p>
    </div>
    <div class="video">
@@ -426,7 +426,6 @@
         <li> <a href="www.linkedin.com/in/nikkiefstathiou"><img src="images/linkedin.svg" alt="linkedin"></a></li>
       </ul>
 </footer>
-</div>
 <script src="slider.js"></script>
   </body>
 </html>
