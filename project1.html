@@ -9,6 +9,10 @@
   <body>
     <!-- hero unit -->
     <div class="wrapper">
+      <header>
+        <a href="index.html" class="logo">
+          <img src="images/logosignature.svg" alt="logo">
+        </a>
       <div class="navigation">
         <nav>
           <div class="nav-wrapper">
@@ -19,20 +23,16 @@
               </ul>
           </div>
       </nav>
-   </div>
+    </header>
+
 <section class="projecthero">
-  <header>
-    <a href="index.html" class="logo">
-      <img src="images/logosignature.svg" alt="logo">
-    </a>
-  </header>
-      <h2 class="tagline">A more transparent cloud storage solution</h2>
-        <div id="heroimage">
-            <img src="images/flowspacemockup.svg" alt="flowspace mockup">
-        </div>
+    <h2 class="tagline">A more transparent cloud storage solution</h2>
+    <div id="heroimage">
+        <img class="flowspacemockup" src="images/flowspacemockup.svg" alt="flowspace mockup">
+    </div>
       </div>
   </section>
-
+   </div>
   <section class="summary">
     <div class="introduction">
       <div class="intro">
@@ -51,7 +51,7 @@
 <section class="myroles">
   <div class="rolescontainer">
   <div class="deliverable">
-    <h3 class="rolelist"><span class="underline">Role&nbsp;&nbsp;</span>
+    <h3 class="rolelist"><span class="underline">Role</span>
     </h3>
       <ul>
         <li>UX & UI</li>
@@ -63,7 +63,7 @@
       </ul>
     </div>
       <div class="deliverable">
-        <h3 class="rolelist"><span class="underline">Deliverables&nbsp;&nbsp;</span>
+        <h3 class="rolelist"><span class="underline">Deliverables</span>
         </h3>
           <ul>
             <li>User Surveys</li>
@@ -78,7 +78,7 @@
           </ul>
       </div>
         <div class="deliverable">
-          <h3 class="rolelist"><span class="underline">Tools&nbsp;&nbsp;</span>
+          <h3 class="rolelist"><span class="underline">Tools</span>
           </h3>
             <ul>
               <li>Figma</li>
@@ -90,19 +90,23 @@
         </div>
     </section>
     <!--Problem/Solution-->
-<section class="problem">
-  <div class="subsection">
+<section id="problem">
+  <div class="block problem">
+    <div class="intro">
     <h3>Problem</h3>
       <p>Most cloud storage platforms are not as focused on privacy and security as they should be. The majority are more focused on being a place that you can house your files, sharing those files and collaborating on documents. Some have options for security, but these can only be unlocked with further payments which include features the user may not even need, but are forced to pay for in order to feel secure.</p>
     </div>
+    </div>
 </section>
 
-<section class="solution">
-      <div class="subsection">
+<section id="solution">
+      <div class="block solution">
+        <div class="intro">
         <h3>Solution</h3>
           <p>With an emphasis on transparency and control for users, Flowspace allows users to not only do the basics of what is needed in a cloud storage app, such as uploading and saving files, sharing, collaborating, and creating documents, but also offers full control and transparency over the files they have shared on an indiviudal level. All of these features are included in the free version, so users will only need to purchase a plan in order to have more storage space, but with a generous 10GB of free storage offered from the beginning, users will be enticed to join.</p>
         </div>
-      </section>
+      </div>
+  </section>
         <!--Discovery/research-->
         <section class="section">
           <div class="sectiontitle">
@@ -122,9 +126,12 @@
         <p> I chose 3 popular cloud storage apps to perform a competitive analysis: Google Drive, DropBox, and Box to see where a new cloud storage application could enter the market and thrive.</p>
     </div>
 </div>
+</section>
+
+<section class="competitive-analysis-list">
 <div class="competitive-container">
   <div class="complist" id="dropbox">
-          <img src="images/dropbox.png" alt="dropbox">
+          <img src="images/dropbox.svg" alt="dropbox">
               <ul>
                   <li>info list</li>
                   <li>info list</li>
@@ -132,10 +139,11 @@
               </ul>
           </div>
 
-            <hr>
+          <hr>
+
 
         <div class="complist" id="box">
-            <img src="images/box.png" alt="box">
+            <img src="images/box.svg" alt="box">
                 <ul>
                     <li>info list</li>
                     <li>info list</li>
@@ -143,10 +151,10 @@
                 </ul>
             </div>
 
-              <hr>
+               <hr>
 
           <div class="complist" id="googledrive">
-              <img src="images/googledrive.png" alt="googledrive">
+              <img src="images/googledrive.svg" alt="googledrive">
                   <ul>
                       <li>info list</li>
                       <li>info list</li>
@@ -163,7 +171,10 @@
   <p> After scoping out the competition, I conducted a user survey to find out the common habits and pain points of cloud storage users.</p>
 </div>
   </div>
-  <div class="user-research-container-1">
+</section>
+  <section class="user-results">
+    <div class="user-results-container">
+  <div class="user-results-1">
         <div class="result">
           <h2 class=percentage>80%</h2>
             <p class=centeredresults>said creating content like notes, documents and spreadsheets was an important part of their activity</p>
@@ -177,20 +188,23 @@
                 <p class=centeredresults>said they organize their items into folders, categories, or groups</p>
             </div>
           </div>
-          <div class="user-research-container-2">
-              <div class="result2">
+
+            <div class="user-results-2">
+
+              <div class="result">
                 <h2 class=percentage><span class=underline>73.3%</span></h2>
                   <p class=centeredresults>said free storage was very important to them</p>
               </div>
-                <div class="result2">
+                <div class="result">
                   <h2 class=percentage>100%</h2>
                     <p class=centeredresults>of users who did not use a cloud  storage app said they would if there was more privacy / security</p>
                 </div>
-                  <div class="result2">
+                  <div class="result">
                     <h2 class=percentage>80%</h2>
                       <p class=centeredresults> said simplicity is very important to them</p>
                   </div>
                 </div>
+              </div>
             </section>
 
   <section id="personas">
@@ -199,22 +213,24 @@
     <h3>user personas</h3>
   </div>
 </div>
+</section>
+<section class="personas">
     <div class="personascontainer">
-      <div id="Ronald">
+      <div class="personainfo" id="Ronald">
         <h4>Ronald C.</h4>
-          <img src="images/ronaldc.svg" alt="Ronald">
+          <img class=personaimg src="images/ronaldc.svg" alt="Ronald">
             <h4>Frustrations</h4>
-                <p>Security feature.</p>
+                <li>Security feature.</li>
               <h4>Goals</h4>
-                <p>Collaboration</p>
-                <p>Create and share files</p>
+                <li>Collaboration</li>
+                <li>Create and share files</li>
         </div>
 
             <hr>
 
-    <div id="Kaela">
+    <div class="personainfo" id="Kaela">
       <h4>Kaela S.</h4>
-        <img src="images/kaelas.svg" alt="Kaela">
+        <img class=personaimg src="images/kaelas.svg" alt="Kaela">
       <h4>Frustrations</h4>
         <p>Security</p>
       <h4>Goals</h4>
@@ -223,6 +239,7 @@
     </div>
 </div>
 </section>
+
 <div class="button">
   <a href="https://drive.google.com/file/d/1bfKbyXNFjrIQJokcmbPojVt7sAB9dQhr/view?usp=sharing"><span class="buttonhighlight">View Personas</span>
     <img src="images/sidearrow.svg" alt="buttonarrow">
@@ -244,7 +261,7 @@
 <section class="userstories">
     <div class="block userstories">
       <div class="intro">
-  <h3>user stories</h3>
+  <h3>user stories & flows</h3>
     <p> Based on the survey and the personas I made focusing heavily on collaboration, simplicity, free storage and security, I put myself in a potential users mindset and created user stories based on what they wanted to achieve.<br><br> I chose to prioritize the basics of a cloud storage application that users said they used the most in the survey and then add in further collaboration and security measures in order to entice both users who use cloud storage already and those who do not yet, but would if security was taken into better consideration.
     <br><br>
   I created user flows based user stories I created in order to provide the best experience for my users.</p>
@@ -258,22 +275,18 @@
   </div>
 
   <section class="userflows">
-        <div class="subsection">
-    <h3>user flows</h3>
-      <p> I created user flows based user stories I created in order to provide the best experience for my users.</p>
-    </div>
-    <div class="userflowimage">
-      <img src="images/userflows.png" alt="User Flow">
-    </div>
-      <div class="subsection">
+    <img class="userflowimage" src="images/userflows.png" alt="User Flow">
+      <div class="flow-overview">
         <ul>
           <li>Security: The ability to view the files you have shared and edit those share permissions at an individual user level.</li>
+              <br>
           <li>Collaboration: The ability to comment on files and tag people for visibility</li>
+              <br>
           <li>Storage: 10GB of free storage just for signing up.</li>
+              <br>
           <li>Expense: All features are available in the free version. Users don’t have to pay more for features, only if they need more storage.</li>
         </ul>
       </div>
-    </div>
       <div class="button">
         <a href="https://whimsical.com/YK2dbDoAyvMwLvEDd1xdZZ"><span class="buttonhighlight">View Flows</span>
           <img src="images/sidearrow.svg" alt="buttonarrow">
@@ -281,14 +294,16 @@
       </div>
     </section>
 
-
-
   <section class="wireframes">
-    <div class="subsection">
+    <div class="block wireframes-section">
+      <div class="intro">
       <h3><span class="pinkunderline">sketches & wireframes</span></h3>
         <p class="intro">When creating the wireframes for this project,  I wanted to create something to make sure that it was familiar enough that it would be easily acclimated to based on users use of other cloud storage apps used by most of my users (Google Drive, Dropbox).</p>
     </div>
   </div>
+</section>
+
+  <section class="wireframe-slider">
         <div class="carousel-wrapper">
         <span id="item-1"></span>
         <span id="item-2"></span>
@@ -333,25 +348,33 @@
   </section>
 
     <section class="branding">
-      <div class="subsection">
+      <div class="block branding">
+      <div class="intro">
         <h3><span class="pinkunderline">branding</span></h3>
+      </div>
+    </div>
         <h4>The Flowspace Story</h4>
-          <p>Entering flow is when  the mental state of operation in which a person performing an activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity.</p>
-          <p>The idea is to melt this concept into a cloud storage service where all of your important files are in one place and are easily organizable to make sure you have everything you need to collaborate, share, and create in either a personal or professional manner.</p>
+          <p class=intro>Entering flow is when  the mental state of operation in which a person performing an activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity.</p>
+          <p class=intro>The idea is to melt this concept into a cloud storage service where all of your important files are in one place and are easily organizable to make sure you have everything you need to collaborate, share, and create in either a personal or professional manner.</p>
         <h4>Logo Sketches & Concepts</h4>
-            <img src="images/logosketches.svg" alt="logo sketches">
-          <p>I drew up some images that made me think of the word ‘flow’, and eventually came up with this sort of melting down an icon concept.</p>
-          <p>Once this was drawn out and the feeling that I wanted Flowspace to evoke was chosen, I got to work choosing a color palette that I thought would help express those emotions further.</p>
-          <p>I had originally wanted to use a very minimalistic look when it came to the logo, starting with this black and white version, but seeing it in digital form, I decided it needed a bit more.</p>
-            <img src="images/digitalsketches.svg" alt="digital logo sketches">
+        <div class="logo-sketches">
+            <img class=sketches src="images/logosketches.svg" alt="logo sketches">
+        </div>
+        <p class=intro>I drew up some images that made me think of the word ‘flow’, and eventually came up with this sort of melting down an icon concept.</p>
+          <p class=intro>Once this was drawn out and the feeling that I wanted Flowspace to evoke was chosen, I got to work choosing a color palette that I thought would help express those emotions further.</p>
+          <p class=intro>I had originally wanted to use a very minimalistic look when it came to the logo, starting with this black and white version, but seeing it in digital form, I decided it needed a bit more.</p>
       <div class="color-logos">
-            <img src="images/digitallogosketchescolor.svg" alt="digital color logos">
+        <img class="digital" src="images/digitallogos.svg" alt="digital logos">
           </div>
-
-      <div class="subsection">
+<section class="styleguide">
+  <div class="block style-guide">
+      <div class="intro">
         <h3>Style Guide</h3>
           <p>I chose to use the darker blue as a brand color because it symbolizes intelligence and trust while the lighter coral and aqua give an inviting, friendly vibe. The coral color is a pop of color that is fun and energetic, like entering a “flow state” can be. I believe the fonts are soft and playful which add to this effect. I chose to use the same fonts together instead of the previous ‘basic’ font as the brand font because once I tried it out, they seemed to mesh well together and look different enough when changing weight and size, although they are technically the same.</p>
-            <img src="images/styleguide.svg" alt="Style Guide">
+        </div>
+  </div>
+  <div class="picture">
+            <img class="pic" src="images/styleguide.svg" alt="Style Guide">
       </div>
           <div class="button">
             <a href="styleguide.pdf"><span class="buttonhighlight">View style guide</span>
@@ -360,11 +383,19 @@
           </div>
   </section>
 <section class="hifi">
-  <div class="hifi-container">
+  <div class="block hifi">
+    <div class="intro">
+    <h3> High Fidelity Mock Ups</h3>
+    <p>Bringing Flowspace to Life</p>
+  </div>
+</div>
     <h4>Flowspace Homepage</h4>
-      <img src="images/flowspacemockupshome.svg" alt="Homepage Mockups">
+    <div class="picture">
+      <img class="pic" src="images/flowspacemockupshome.svg" alt="Homepage Mockups">
+    </div>
         <h4>Flowspace Dashboard</h4>
-          <img src="images/hifimockups.svg" alt="Dashboard Mockups">
+        <div class="picture">
+          <img class="pic" src="images/hifimockups.svg" alt="Dashboard Mockups">
     </div>
   <div class="button">
       <a href="https://www.figma.com/proto/nSRczBjdL1rIGC3aIa2fnl/Flowspace-Mockups?node-id=26%3A2&viewport=470%2C-104%2C0.018384581431746483&scaling=scale-down-width"><span class="buttonhighlight">View Prototype</span>
@@ -377,9 +408,12 @@
 
 
 <section class="usability-test">
-  <div class="subsection">
+  <div class="block usability-test">
+    <div class="intro">
     <h3><span class="pinkunderline">usability test #2</span></h3>
       <p>I did 3 separate usability tests to test my users completing 5 tasks:</p>
+    </div>
+  </div>
         <ol>
           <li>Sign up for a new account</li>
           <li>Upload or save a file to the cloud</li>
